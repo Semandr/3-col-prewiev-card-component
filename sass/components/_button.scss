@@ -1,3 +1,26 @@
 .btn {
   color: inherit;
+  padding: 1rem 2.5rem;
+
+  border-radius: 10rem;
+  background-color: var(--clr-very-light-gray);
+  border: 2px solid transparent;
+
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: transparent;
+    color: var(--clr-very-light-gray);
+    border: 2px solid var(--clr-very-light-gray);
+  }
+
+  &_sedan {
+    color: var(--clr-bright-orange);
+  }
+  &_suv {
+    color: var(--clr-dark-cyan);
+  }
+  &_luxury {
+    color: var(--clr-very-dark-cyan);
+  }
 }

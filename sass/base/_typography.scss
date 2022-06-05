@@ -12,4 +12,6 @@ body {
 }
 .text {
   color: var(--clr-transparent-white);
+  flex-grow: 2;
+  margin-bottom: 2rem;
 }

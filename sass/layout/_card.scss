@@ -9,13 +9,16 @@
   grid-template-areas: 'sedan suvs luxury';
 }
 
-@media screen and (max-width: 35em) {
+@media screen and (max-width: 760px) {
   .main {
     grid-template-columns: 1fr;
     grid-template-areas:
       'sedan'
       'suvs'
       'luxury';
+  }
+  .text {
+    margin-bottom: 1rem;
   }
 }
 .card {
