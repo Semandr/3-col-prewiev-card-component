@@ -1,7 +1,15 @@
-/**
- * Basic typography style for copy text
- */
+// font-family: 'Big Shoulders Display', cursive;
+// font-family: 'Lexend Deca', sans-serif;
 body {
-  color: $text-color;
-  font: normal 125% / 1.4 $text-font-stack;
+  font: 400 1.5rem/1.5 'Lexend Deca', sans-serif;
+  background-color: var(--clr-very-light-gray);
+}
+.title {
+  font: 700 4rem/1.5 'Big Shoulders Display', cursive;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--clr-very-light-gray);
+}
+.text {
+  color: var(--clr-transparent-white);
 }
